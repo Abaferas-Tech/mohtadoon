@@ -8,7 +8,7 @@ import androidx.navigation.compose.NavHost
 fun MohtadoonNavGraph() {
     NavHost(
         navController = LocalNavController.current,
-        startDestination =
+        startDestination = NavigationDestination.HOME.route
     ) {
 
     }
